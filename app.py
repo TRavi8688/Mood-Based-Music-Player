@@ -6,7 +6,7 @@ from urllib.request import urlretrieve
 import zipfile
 
 # 1. Download and extract your GitHub repository (if not already present)
-REPO_URL = "https://github.com/yourusername/yourrepo/archive/main.zip"  # Replace with your actual GitHub repo URL
+REPO_URL = "https://github.com/TRavi8688/Mood-Based-Music-Player"  # Replace with your actual GitHub repo URL
 MODEL_PATH = "my_model.h5"  # Path to your model in the repo
 
 if not os.path.exists(MODEL_PATH):
