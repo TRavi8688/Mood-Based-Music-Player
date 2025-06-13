@@ -1,5 +1,8 @@
-Flask
-tensorflow
-numpy
-Pillow
-gunicorn
+tensorflow==2.17.0
+numpy==1.26.4
+Pillow==10.4.0
+spotipy==2.24.0
+streamlit==1.38.0
+# Optional: Add these if you encounter SSL or HTTP issues with Spotify API
+requests==2.31.0
+urllib3==1.26.18
